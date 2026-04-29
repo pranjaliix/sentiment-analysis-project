@@ -5,7 +5,7 @@ from transformers import BertTokenizer, BertForSequenceClassification
 MODEL_NAME = "Pranjalii/SentimentModelUpload"
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
-model = BertForSequenceClassification.from_pretrained(model_path)
+model = BertForSequenceClassification.from_pretrained(MODEL_NAME)
 
 model.eval()
 
