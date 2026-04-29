@@ -2,7 +2,7 @@ import torch
 from transformers import BertTokenizer, BertForSequenceClassification
 
 # Load saved model
-MODEL_NAME = "Pranjalii/SentimentModelUpload"
+MODEL_NAME = "Pranjalii/sentiment-analysis-bert"
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 model = BertForSequenceClassification.from_pretrained(MODEL_NAME)
