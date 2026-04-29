@@ -1,5 +1,8 @@
+streamlit
 torch
 transformers
 datasets
 scikit-learn
 accelerate
+safetensors
+python-dotenv

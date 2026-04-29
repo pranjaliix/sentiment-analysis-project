@@ -26,8 +26,9 @@ def predict_sentiment(text):
     return "Positive 😊" if prediction == 1 else "Negative 😔"
 
 # Test loop
-while True:
-    text = input("\nEnter a sentence (or type 'exit'): ")
-    if text.lower() == "exit":
-        break
-    print("Prediction:", predict_sentiment(text))
+# while True:
+#     text = input("\nEnter a sentence (or type 'exit'): ")
+#     if text.lower() == "exit":
+#         break
+#     print("Prediction:", predict_sentiment(text))/
+
